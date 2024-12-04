@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "CrudOperationWithMongoDb.Controllers.CrudOperationController",
+    "Method": "GetAllRecord",
+    "RelativePath": "api/CrudOperation/GetAllRecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationWithMongoDb.Controllers.CrudOperationController",
+    "Method": "GetRecordById",
+    "RelativePath": "api/CrudOperation/GetRecordById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationWithMongoDb.Controllers.CrudOperationController",
+    "Method": "GetRecordByName",
+    "RelativePath": "api/CrudOperation/GetRecordByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudOperationWithMongoDb.Controllers.CrudOperationController",
+    "Method": "InsertRecord",
+    "RelativePath": "api/CrudOperation/InsertRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudOperationWithMongoDb.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
